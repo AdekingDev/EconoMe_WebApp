@@ -1,0 +1,41 @@
+/* Update the body background to match the sign-in page */
+body {
+    background-color: #007bff;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapper for the entire page */
+.signin-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Text section of the sign-up page */
+.signin-text {
+    text-align: left;
+    color: #fff;
+    width: 40%;
+}
+
+/* Container for the sign-up form, styled as a card */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 40%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+/* Rest of your CSS for .image-size, .title, .input-style, etc. */
+/* Make sure the styles from the sign-in page's CSS are included here */

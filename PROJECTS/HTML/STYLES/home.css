@@ -1,0 +1,92 @@
+body{
+    background-color:rgb(236, 172, 236) ;
+}
+.col-md-4 {
+    padding: 1rem;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-image {
+    display: flex; 
+    width: 24rem; 
+    height: 14rem;
+}
+
+.card-img-top {
+    object-fit:contain;
+    object-position:20%;
+}
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.welcome-title {
+    font-size: 4.7rem; 
+    font-weight: bold;
+    /*-webkit-text-stroke: 2px ; */
+    color: #ffffff; 
+    margin-bottom: 0.5rem; 
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+    
+
+.finance-tool-subtitle {
+    font-size: 1.5rem; 
+    color: purple; 
+    margin-bottom: 2rem; 
+    animation: slideInFromRight 1.5s ease-out forwards;
+}
+
+.btn-grad-blue {
+    background: purple;
+    background: -webkit-linear-gradient(to right, #77D4FC, #99DFFD);
+    background: linear-gradient(to right, #be12a2, n#c11b9d);
+    color:#fff
+}
+
+.text-outline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkgray;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #77D4FC #ffffff;
+}
+
+
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #f3cdee;
+    border-radius: 10px;
+    border: 3px solid #13010f;
+}
